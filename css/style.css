@@ -1,13 +1,13 @@
 /* PAGE */
 
 @font-face {
-  font-family: "Raleway-Regular";
-  src: url("font/Raleway-Regular.ttf");
+  font-family: "Raleway";
+  src: url("/fonts/Raleway-Medium.ttf");
 }
 
 @font-face {
   font-family: "Raleway-Bold";
-  src: url("font/Raleway-Bold.ttf");
+  src: url("/fonts/Raleway-Bold.ttf");
 }
 
 html {
@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  font-family: "Raleway-Regular", "Sans serif";
+  font-family: "Raleway", sans-serif;
   margin: 15px 0px 0px 0px;
 }
 
