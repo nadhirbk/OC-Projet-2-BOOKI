@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="shortcut icon" href="./images/logo/Booki@3x.png" />
-    <title>Booki - Trouvez vos vacances !</title>
     <meta
       name="description"
       content="Trouvez votre hébergement idéal sur Booki ! Moderne, rustique, ou atypique, venez trouver vos vacances de rêve..."
     />
+
+    <link rel="shortcut icon" href="./images/logo/Booki@3x.png" />
+    <script
+      src="https://kit.fontawesome.com/dc80972f73.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Booki - Trouvez vos vacances !</title>
   </head>
 
   <body>
@@ -30,18 +37,18 @@
     <main class="main">
       <!-- SEARCH -->
       <section class="search">
-        <header class="search_header">
+        <div class="search_header">
           <h1 class="search_header_title">
             Trouvez votre hébergement pour des vacances de rêve
           </h1>
           <p class="search_header_subtitle">
             En plein centre ville ou en pleine nature
           </p>
-        </header>
+        </div>
 
         <form class="search_form" method="GET" action="#">
           <div class="search_form_icon">
-            <i class="fa-solid fa-location-dot"></i>
+            <i class="fas fa-map-marker-alt"></i>
           </div>
           <input
             class="search_form_searchinput"
@@ -50,7 +57,7 @@
           />
           <button class="search_form_submitinput">
             <p class="search_form_submitinput_text">Rechercher</p>
-            <i class="fa-solid fa-magnifying-glass search_text_icon"></i>
+            <i class="fas fa-search"></i>
           </button>
         </form>
 
@@ -58,23 +65,19 @@
           <p class="search_filters_title">Filtres</p>
           <div class="search_filters_filters">
             <button class="search_filters_filter">
-              <i
-                class="fa-solid fa-money-bill-wave search_filters_filter_icon"
-              ></i>
+              <i class="fas fa-money-bill-wave search_filters_filter_icon"></i>
               <p class="search_filters_filter_title">Économique</p>
             </button>
             <button class="search_filters_filter">
-              <i
-                class="fa-solid fa-child-reaching search_filters_filter_icon"
-              ></i>
+              <i class="fas fa-child search_filters_filter_icon"></i>
               <p class="search_filters_filter_title">Familial</p>
             </button>
             <button class="search_filters_filter">
-              <i class="fa-solid fa-heart search_filters_filter_icon"></i>
+              <i class="fas fa-heart search_filters_filter_icon"></i>
               <p class="search_filters_filter_title">Romantique</p>
             </button>
             <button class="search_filters_filter">
-              <i class="fa-solid fa-dog search_filters_filter_icon"></i>
+              <i class="fas fa-dog search_filters_filter_icon"></i>
               <p class="search_filters_filter_title">Animaux autorisés</p>
             </button>
           </div>
@@ -82,7 +85,7 @@
 
         <div class="search_result">
           <div class="search_result_icon">
-            <i class="fa-solid fa-info search_result_icon_info"></i>
+            <i class="fa fa-info search_result_icon_info"></i>
           </div>
           <p class="search_result_text">
             Plus de 500 logements sont disponibles dans cette ville
@@ -90,7 +93,6 @@
         </div>
       </section>
       <!-- SEARCH -->
-
       <!-- HOSTING -->
       <section class="hosting" id="hosting">
         <div class="hosting_main hosting_background">
@@ -122,11 +124,11 @@
                       </p>
                     </div>
                     <div class="hosting_card_stars">
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_off"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_off"></i>
                     </div>
                   </figcaption>
                 </figure>
@@ -156,11 +158,11 @@
                       </p>
                     </div>
                     <div class="hosting_card_stars">
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
                     </div>
                   </figcaption>
                 </figure>
@@ -192,11 +194,11 @@
                       </p>
                     </div>
                     <div class="hosting_card_stars">
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_off"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_off"></i>
                     </div>
                   </figcaption>
                 </figure>
@@ -228,11 +230,11 @@
                       </p>
                     </div>
                     <div class="hosting_card_stars">
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_off"></i>
-                      <i class="fa-solid fa-star hosting_card_star_off"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_off"></i>
+                      <i class="fa fa-star hosting_card_star_off"></i>
                     </div>
                   </figcaption>
                 </figure>
@@ -245,6 +247,7 @@
                   <img
                     class="hosting_main_card_fig_img hosting_card_fig_img"
                     src="images/hebergements/nicate-lee.jpg"
+                    alt="something ..."
                   />
                   <figcaption
                     class="hosting_main_card_fig_caption hosting_card_fig_caption"
@@ -263,11 +266,11 @@
                       </p>
                     </div>
                     <div class="hosting_card_stars">
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_off"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_off"></i>
                     </div>
                   </figcaption>
                 </figure>
@@ -297,11 +300,11 @@
                       </p>
                     </div>
                     <div class="hosting_card_stars">
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
                     </div>
                   </figcaption>
                 </figure>
@@ -313,13 +316,12 @@
             <a class="hosting_main_card_footer_link" href="#">Afficher plus</a>
           </p>
         </div>
-
         <aside class="hosting_popular hosting_background">
           <div class="hosting_popular_header">
             <h2 class="hosting_popular_header_title hosting_title">
               Les plus populaires
             </h2>
-            <i class="fa-solid fa-star hosting_popular_header_icon"></i>
+            <i class="fa fa-chart-line hosting_popular_header_icon"></i>
           </div>
 
           <div class="hosting_popular_cards">
@@ -349,11 +351,11 @@
                       </p>
                     </div>
                     <div class="hosting_card_stars">
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
                     </div>
                   </figcaption>
                 </figure>
@@ -386,11 +388,11 @@
                       </p>
                     </div>
                     <div class="hosting_card_stars">
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_off"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_off"></i>
                     </div>
                   </figcaption>
                 </figure>
@@ -420,11 +422,11 @@
                       </p>
                     </div>
                     <div class="hosting_card_stars">
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_on"></i>
-                      <i class="fa-solid fa-star hosting_card_star_off"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_on"></i>
+                      <i class="fa fa-star hosting_card_star_off"></i>
                     </div>
                   </figcaption>
                 </figure>
@@ -434,16 +436,15 @@
         </aside>
       </section>
       <!-- HOSTING -->
-
       <!-- ACTIVITY -->
       <section class="activity" id="activity">
         <h2 class="activity_header_title">Activités à Marseille</h2>
 
         <div class="activity_cards">
-          <a href="#" class="activity_card activity_card_large">
+          <a href="#" class="activity_card">
             <figure class="activity_card_fig">
               <img
-                class="activity_card_fig_img activity_card_fig_img_large"
+                class="activity_card_fig_img"
                 src="./images/activites/reno-laithienne.jpg"
                 alt="Le Vieux Port de Marseille."
               />
@@ -453,10 +454,10 @@
             </figure>
           </a>
 
-          <a href="#" class="activity_card activity_card_medium">
+          <a href="#" class="activity_card">
             <figure class="activity_card_fig">
               <img
-                class="activity_card_fig_img activity_card_fig_img_medium"
+                class="activity_card_fig_img"
                 src="./images/activites/paul-hermann.jpg"
                 alt="Le Fort de Pomègues."
               />
@@ -466,23 +467,10 @@
             </figure>
           </a>
 
-          <a href="#" class="activity_card activity_card_small">
+          <a href="#" class="activity_card">
             <figure class="activity_card_fig">
               <img
-                class="activity_card_fig_img activity_card_fig_img_small"
-                src="./images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
-                alt="L'Île du Frioul au loin."
-              />
-              <figcaption class="activity_card_fig_caption">
-                <h3 class="activity_card_fig_caption_title">Îles du Frioul</h3>
-              </figcaption>
-            </figure>
-          </a>
-
-          <a href="#" class="activity_card activity_card_large">
-            <figure class="activity_card_fig">
-              <img
-                class="activity_card_fig_img activity_card_fig_img_large"
+                class="activity_card_fig_img"
                 src="./images/activites/kilyan-sockalingum.jpg"
                 alt="Calanques de Sormiou."
               />
@@ -494,10 +482,10 @@
             </figure>
           </a>
 
-          <a href="#" class="activity_card activity_card_small">
+          <a href="#" class="activity_card">
             <figure class="activity_card_fig">
               <img
-                class="activity_card_fig_img activity_card_fig_img_small"
+                class="activity_card_fig_img"
                 src="./images/activites/florian-wehde.jpg"
                 alt="Notre-Dame-de-la-Garde."
               />
@@ -505,19 +493,6 @@
                 <h3 class="activity_card_fig_caption_title">
                   Notre-Dame-de-la-Garde
                 </h3>
-              </figcaption>
-            </figure>
-          </a>
-
-          <a href="#" class="activity_card activity_card_medium">
-            <figure class="activity_card_fig">
-              <img
-                class="activity_card_fig_img activity_card_fig_img_medium"
-                src="./images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
-                alt="Parc Longchamp."
-              />
-              <figcaption class="activity_card_fig_caption">
-                <h3 class="activity_card_fig_caption_title">Parc Longchamp</h3>
               </figcaption>
             </figure>
           </a>
